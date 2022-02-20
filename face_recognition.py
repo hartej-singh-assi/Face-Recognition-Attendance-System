@@ -19,7 +19,7 @@ class Face_recognition:
         title_lbl=Label(self.root,text="FACE RECOGNITION",font=("times new roman",35,"bold"),bg="white",fg="green")
         title_lbl.place(x=0,y=0,width=1600,height=45)
         
-        img_top=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img_top=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\faceprint-analysis-application-isometric-color-vector-illustration_151150-30.jpg")
         img_top=img_top.resize((680,700),Image.ANTIALIAS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
         

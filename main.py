@@ -47,7 +47,7 @@ class Face_Recognition_System:
         lbl_3.place(x=1019,y=0,width=517,height=130)
         
         # Background Image
-        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\anything.jpg")
+        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\37ab0be887b5a74c48c21b7928381ca0.jpg")
         bckimg=bckimg.resize((1600,710),Image.ANTIALIAS)
         self.photobckimg=ImageTk.PhotoImage(bckimg)
         

@@ -30,7 +30,7 @@ class Student:
         
         # Top Images
         # First Image
-        img1=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img1=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\dormakaba-Blog-Post-pictures-_-1024-x-683-83.jpg")
         img1=img1.resize((517,130),Image.ANTIALIAS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -46,7 +46,7 @@ class Student:
         lbl_2.place(x=517,y=0,width=502,height=130)
         
         # Third Image
-        img3=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img3=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220213-194451_Chrome.jpg")
         img3=img3.resize((517,130),Image.ANTIALIAS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         
@@ -54,7 +54,7 @@ class Student:
         lbl_3.place(x=1019,y=0,width=517,height=130)
         
         # Background Image
-        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\anything.jpg")
+        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\37ab0be887b5a74c48c21b7928381ca0.jpg")
         bckimg=bckimg.resize((1600,710),Image.ANTIALIAS)
         self.photobckimg=ImageTk.PhotoImage(bckimg)
         
@@ -71,7 +71,7 @@ class Student:
         left_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Details",font=("times new roman",12,"bold"))
         left_frame.place(x=10,y=10,width=745,height=580)
         
-        img_left=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img_left=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220213-194324_Chrome.jpg")
         img_left=img_left.resize((735,130),Image.ANTIALIAS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
         
@@ -236,7 +236,7 @@ class Student:
         right_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Details",font=("times new roman",12,"bold"))
         right_frame.place(x=765,y=10,width=745,height=580)
         
-        img_right=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img_right=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220213-193630_Chrome.jpg")
         img_right=img_right.resize((735,130),Image.ANTIALIAS)
         self.photoimg_right=ImageTk.PhotoImage(img_right)
         

@@ -28,7 +28,7 @@ class Train:
         b1_1=Button(self.root,text="TRAIN DATA",command=self.train_classifier,cursor="hand2",font=("times new roman",30,"bold"),bg="red",fg="white")
         b1_1.place(x=0,y=380,width=1600,height=60)
         
-        img_bottom=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img_bottom=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220220-232144_Chrome.jpg")
         img_bottom=img_bottom.resize((1600,325),Image.ANTIALIAS)
         self.photoimg_bottom=ImageTk.PhotoImage(img_bottom)
         

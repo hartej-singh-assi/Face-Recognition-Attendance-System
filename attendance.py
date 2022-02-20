@@ -28,7 +28,7 @@ class Attendance:
         
         # Top Images
         # First Image
-        img1=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img1=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\images (2).jpg")
         img1=img1.resize((768,200),Image.ANTIALIAS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -36,7 +36,7 @@ class Attendance:
         lbl_1.place(x=0,y=0,width=768,height=200)
         
         # Second Image
-        img2=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img2=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220213-191427_Chrome.jpg")
         img2=img2.resize((768,200),Image.ANTIALIAS)
         self.photoimg2=ImageTk.PhotoImage(img2)
         
@@ -44,7 +44,7 @@ class Attendance:
         lbl_2.place(x=768,y=0,width=768,height=200)
         
         # Background Image
-        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\anything.jpg")
+        bckimg=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\37ab0be887b5a74c48c21b7928381ca0.jpg")
         bckimg=bckimg.resize((1600,710),Image.ANTIALIAS)
         self.photobckimg=ImageTk.PhotoImage(bckimg)
         
@@ -61,7 +61,7 @@ class Attendance:
         left_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Attendance Details",font=("times new roman",12,"bold"))
         left_frame.place(x=10,y=10,width=745,height=580)
         
-        img_left=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\facialrecognition.png")
+        img_left=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Screenshot_20220213-194207_Chrome.jpg")
         img_left=img_left.resize((735,130),Image.ANTIALIAS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
         

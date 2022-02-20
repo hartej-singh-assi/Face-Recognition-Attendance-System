@@ -11,7 +11,7 @@ class Developer:
         title_lbl=Label(self.root,text="DEVELOPER",font=("times new roman",35,"bold"),bg="white",fg="blue")
         title_lbl.place(x=0,y=0,width=1600,height=45)
         
-        img=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\Hipster-Developer-Dice.jpg")
+        img=Image.open(r"C:\Users\harte\Desktop\CS PRACTICALS\sem 6\Project\Face Recognition + Attendance System\images\1610976417-0.jpg")
         img=img.resize((1600,720),Image.ANTIALIAS)
         self.photoimg=ImageTk.PhotoImage(img)
         
